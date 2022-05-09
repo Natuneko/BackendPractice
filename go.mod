@@ -1,4 +1,4 @@
-module db
+module BackendPractice
 
 go 1.18
 
