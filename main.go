@@ -126,7 +126,7 @@ func MainHandle(w http.ResponseWriter, r *http.Request) {
 				}
 
 			default:
-				w.Write([]byte(`"error":"Not found"}`))
+				w.Write([]byte(`{"error":"Not found"}`))
 				return
 			}
 		default:
